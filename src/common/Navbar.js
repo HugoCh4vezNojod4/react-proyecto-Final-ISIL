@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 import { BsSearch, BsList } from "react-icons/bs";
 import foto1 from "../assets/logo-green-dark.png"
@@ -13,8 +14,8 @@ function Navbar(props) {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav mx-auto">
-                        <a className="nav-link active" aria-current="page" href="/react-proyecto-Final-ISIL">Home</a>
-                        <a className="nav-link" href="/list">List</a>
+                        <Link className="nav-link active" aria-current="page" href="/react-proyecto-Final-ISIL">Home</Link>
+                        <Link className="nav-link" href="/list">List</Link>
                         <a className="nav-link" href="#">Portfolio</a>
                         <a className="nav-link" href="#">Elements</a>
                         <a className="nav-link" href="#">Blog</a>
