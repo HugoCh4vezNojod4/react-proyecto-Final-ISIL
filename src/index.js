@@ -15,7 +15,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Navbar/>
     <Routes>
-      <Route path='/' element={<App/>}/>
+      <Route path='/react-proyecto-Final-ISIL' element={<App/>}/>
       <Route path='/list' element={<Pedidos/>}/>
     </Routes>
     <PreFooter/>

@@ -13,7 +13,7 @@ function Navbar(props) {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav mx-auto">
-                        <a className="nav-link active" aria-current="page" href="/">Home</a>
+                        <a className="nav-link active" aria-current="page" href="/react-proyecto-Final-ISIL">Home</a>
                         <a className="nav-link" href="/list">List</a>
                         <a className="nav-link" href="#">Portfolio</a>
                         <a className="nav-link" href="#">Elements</a>
