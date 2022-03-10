@@ -1,0 +1,14 @@
+.bg-color{
+    background-color: var(--color-bg1);
+    padding-bottom: 4em;
+}
+
+.iz{
+    text-align: left;
+}
+
+.card-a{
+    box-shadow: 1px -1px 51px -14px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 1px -1px 51px -14px rgba(0,0,0,0.36);
+    -moz-box-shadow: 1px -1px 51px -14px rgba(0,0,0,0.36);
+}

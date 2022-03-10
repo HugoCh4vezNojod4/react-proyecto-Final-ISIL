@@ -1,0 +1,23 @@
+thead{
+    color: var(--color-bg3);
+}
+tr{
+    border-color: var(--color-bg3);
+    font-weight: 600;
+}
+
+.table-hover > tbody > tr:nth-child(2n+1) > td, .table-hover > tbody > tr:nth-child(2n+1) > th {
+    background-color: var(--color-bg4);
+ }
+
+ .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: var(--color-bg4);
+ }
+
+span, h4{
+    text-align: center;
+}
+
+.margined-list{
+    margin: 0em 4em;
+}

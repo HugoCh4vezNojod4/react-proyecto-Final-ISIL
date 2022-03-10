@@ -1,0 +1,30 @@
+.cards-categorias{
+    padding-bottom: 4em;
+}
+
+.btn{
+    background-color: var(--color-bg3);
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    border: none;
+    padding: 0.5em 1em;
+    color: var(--color-bg2)
+}
+
+.btn:hover{
+    background-color: var(--color-bg1);
+    border-color: var(--color-bg3);
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    color: black;
+}
+
+#formulario-insert{
+    padding-bottom: 1em;
+}
+
+.btn-ins{
+    margin-bottom: 1em;
+}
+
+.margined{
+    margin: 0 20em;
+}
